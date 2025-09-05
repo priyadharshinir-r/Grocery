@@ -5,9 +5,13 @@ class Grocery(models.Model):
     price = models.IntegerField()
     rating = models.CharField(max_length = 100)
 
+
     def __str__(self):
         return self.name
 
     @classmethod
     def filter(cls, param, name):
         pass
+
+
+#na than mapalai

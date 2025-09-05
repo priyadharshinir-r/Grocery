@@ -2,7 +2,7 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
-
+#vanakkam da mapla
 
 def main():
     """Run administrative tasks."""
