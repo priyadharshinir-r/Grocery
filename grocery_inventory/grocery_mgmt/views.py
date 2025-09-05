@@ -55,7 +55,7 @@ class GroceryDeleteView(APIView):
 
         grocery.delete()
         return Response({"message": "Deleted successfully"}, status=status.HTTP_200_OK)
-
+3ghuughuh
 
 # 5. Search Grocery by Name
 class GrocerySearchView(APIView):
